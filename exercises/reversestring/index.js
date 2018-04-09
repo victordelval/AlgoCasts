@@ -13,9 +13,9 @@
 // Return the result
 
 function reverse(str) {
-    var characterArray = str.split('');
-    var reverseArray = characterArray.reverse();
-    return reverseArray.join('');
+    const arr = str.split('');
+    arr.reverse();
+    return arr.join('');
 }
 
 module.exports = reverse;
