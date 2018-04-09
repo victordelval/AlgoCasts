@@ -6,6 +6,12 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
+// --- Steps for the solution:
+// Turn 'str' into an array
+// Call 'reverse' method on the array
+// Join the array back into a string
+// Return the result
+
 function reverse(str) {
     var characterArray = str.split('');
     var reverseArray = characterArray.reverse();
